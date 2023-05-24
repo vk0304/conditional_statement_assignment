@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Basic_Salary = parseInt(prompt("enter a basic salary"))
+
+        
+        
+        if(Basic_Salary <= 10000){
+            var HRA = Basic_Salary * 0.2
+            var DA = Basic_Salary * 0.8
+            
+            alert("HRA IS " + " ' " + HRA +  " ' " + " AND DA IS " + " ' " + DA + " ' ")
+        }
+        else if(Basic_Salary <= 20000){
+            var HRA = Basic_Salary * 0.25
+            var DA = Basic_Salary * 0.9
+            
+            alert("HRA IS " + " ' " + HRA +  " ' " + " AND DA IS " + " ' " + DA + " ' ")
+        }
+        else{
+            var HRA = Basic_Salary * 0.3
+            var DA = Basic_Salary * 0.95
+            
+            alert("HRA IS " + " ' " + HRA +  " ' " + " AND DA IS " + " ' " + DA + " ' ")
+        }
+        
+    </script>
+</body>
+</html>

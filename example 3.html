@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fuel_units = parseInt(prompt("enter fuel units"))
+
+        if(fuel_units <= 50){
+            fuel_price = fuel_units * 0.5
+            additional_surchage = fuel_price * 0.2 
+            total_bill = fuel_price + additional_surchage
+
+            alert("Total bill is " + " ' " + total_bill + " ' ")
+        }
+        else if(fuel_units <= 150){
+            fuel_price = fuel_units * 0.75
+            additional_surchage = fuel_price * 0.2 
+            total_bill = fuel_price + additional_surchage
+
+            alert("Total bill is " + " ' " + total_bill + " ' ")
+        }
+        else if(fuel_units <= 250){
+            fuel_price = fuel_units * 1.2
+            additional_surchage = fuel_price * 0.2 
+            total_bill = fuel_price + additional_surchage
+
+            alert("Total bill is " + " ' " + total_bill + " ' ")
+        }
+        else{
+            fuel_price = fuel_units * 1.5
+            additional_surchage = fuel_price * 0.2 
+            total_bill = fuel_price + additional_surchage
+
+            alert("Total bill is " + " ' " + total_bill + " ' ")
+        }
+    </script>
+
+</body>
+</html>
